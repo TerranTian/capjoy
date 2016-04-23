@@ -10,8 +10,8 @@
 							<dict>
 								<key>kind</key>
 								<string>software-package</string>
-								 <key>url</key>
-								<string>${pulish_url}/${target_name}/${target_name}.ipa</string>
+								<key>url</key>
+								<string>http://clash-client-01.oss-cn-hangzhou.aliyuncs.com/files%2Fmk-mobile-cn.game.clash-1893.1966.ipa</string>
 							</dict>
 							<dict>
 								<key>kind</key>
