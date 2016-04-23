@@ -8,40 +8,40 @@
 					 <key>assets</key>
 					 <array>
 							<dict>
-									<key>kind</key>
-									<string>software-package</string>
-									 <key>url</key>
-									<string>${pulish_url}/${target_name}/${target_name}.ipa</string>
+								<key>kind</key>
+								<string>software-package</string>
+								 <key>url</key>
+								<string>${pulish_url}/${target_name}/${target_name}.ipa</string>
 							</dict>
-							 <dict>
-								 <key>kind</key>
-								 <string>display-image</string>
-								 <key>needs-shine</key>
+							<dict>
+								<key>kind</key>
+								<string>display-image</string>
+								<key>needs-shine</key>
 								<true/>
 								<key>url</key>
-								<string>${pulish_url}/${target_name}/${target_name}_logo.png</string>
-						 </dict>
-					 <dict>
-									<key>kind</key>
-									<string>full-size-image</string>
-									<key>needs-shine</key>
-									<true/>
-									<key>url</key>
-									<string>${pulish_url}/${target_name}/${target_name}_logo.png</string>
+								<string>./icon.png</string>
+							</dict>
+							<dict>
+								<key>kind</key>
+								<string>full-size-image</string>
+								<key>needs-shine</key>
+								<true/>
+								<key>url</key>
+								<string>./icon.png</string>
 							 </dict>
 					 </array>
 					 <key>metadata</key>
 					 <dict>
-							 <key>bundle-identifier</key>
-							 <string>cn.game.mk</string>
-							 <key>bundle-version</key>
-							 <string>1.0.0</string>
-							 <key>kind</key>
-							 <string>software</string>
-							 <key>subtitle</key>
-							 <string>GearCraft</string>
-							 <key>title</key>
-							 <string>GearCraft</string>
+						<key>bundle-identifier</key>
+						<string>cn.game.mk</string>
+						<key>bundle-version</key>
+						<string>1.0.0</string>
+						<key>kind</key>
+						<string>software</string>
+						<key>subtitle</key>
+						<string>GearCraft</string>
+						<key>title</key>
+						<string>GearCraft</string>
 					 </dict>
 			 </dict>
 	 </array>

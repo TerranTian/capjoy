@@ -7,7 +7,7 @@
 		function doLocation(url)
 		{
 			var android = "";
-			var ios = "itms-services://?action=download-manifest&url=/gearcraft.plist";
+			var ios = "itms-services://?action=download-manifest&url=./gearcraft.plist";
 			if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
 				url = ios;
 			} else if (/(Android)/i.test(navigator.userAgent)) {
