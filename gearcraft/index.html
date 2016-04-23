@@ -4,6 +4,14 @@
 	<meta http-equiv="Content-Type" content="text/HTML; charset=utf-8">
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 	<script type="text/javascript">
+		function appendTxt(content)
+		{
+			var p = document.createElement("p");
+		    var txt = document.createTextNode(content);
+		    p.appendChild(txt);
+			document.body.appendChild(p);
+		}
+
 		function doLocation(url)
 		{
 			var android = "http://clash-client-01.oss-cn-hangzhou.aliyuncs.com/files%2Fmk-lehui-cn.game.mk-1893.1966.apk";
@@ -21,6 +29,10 @@
 			    var img = document.createElement("img");
 			    img.setAttribute("src","./qr.php.png");
 			    document.body.appendChild(img);
+
+			    appendTxt("如果你用的是微信扫一扫，点击分享，然后选择使用浏览器打开.");
+			    appendTxt(". ios会自动安装");
+			    appendTxt(". android会提示下载安装");
 			    return;
 			};
 
@@ -36,5 +48,7 @@
 		}
 	</script>
 	</head>
-	<body><script type="text/javascript">doLocation();</script></body>
+	<body>
+		<script type="text/javascript">doLocation();</script>
+	</body>
 </html>
