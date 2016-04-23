@@ -8,7 +8,7 @@
 		{
 			var android = "";
 			var lcal= window.location.href;
-			lcal=substring(0,lcal.lastIndexOf("/"));
+			//lcal=substring(0,lcal.lastIndexOf("/"));
 			alert(lcal);
 			var ios = "itms-services://?action=download-manifest&url="+lcal+"/gearcraft.plist";
 			if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
